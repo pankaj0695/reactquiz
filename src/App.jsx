@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import Header from './components/header';
+import Header from './components/Header';
 import Quiz from './components/Quiz';
 
 function App() {
