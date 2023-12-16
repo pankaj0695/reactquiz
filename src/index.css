@@ -370,3 +370,50 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 480px) {
+  #quiz {
+    padding: 1rem;
+  }
+  #question h2 {
+    font-size: 1.1rem;
+  }
+  #question progress {
+    width: 80%;
+  }
+  #answers {
+    gap: 0.8rem;
+  }
+  .answer {
+    width: 98%;
+  }
+  .answer button {
+    font-size: 0.85rem;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+  }
+  #summary {
+    padding: 1rem;
+  }
+  #summary img {
+    width: 6rem;
+    height: 6rem;
+  }
+  #summary h2 {
+    font-size: 1.6rem;
+  }
+  #summary-stats {
+    gap: 0.7rem;
+    width: auto;
+    margin: 0.5rem;
+  }
+  #summary-stats p {
+    text-align: center;
+  }
+  #summary-stats .number {
+    font-size: 2rem;
+  }
+  #summary-stats .text {
+    font-size: 0.7rem;
+  }
+}
